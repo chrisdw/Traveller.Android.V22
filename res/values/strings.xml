@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Traveller</string>
+    <string name="language_io_exception">Could not load language list: %s</string>
+    <string name="lblSyl">Number of syllables</string>
+    <string name="butGen">Generate</string>
+    <string name="lblWords">Number of Words</string>
+    <string name="butGen2D6">Generate 2D6</string>
+    <string name="butGen1D6">Generate 1D6</string>
+    <string name="lblUPP">UPP</string>
+    <string name="lblArmour">Armour</string>
+    <string name="lblAttrib">Attrib</string>
+    <string name="lblBehaviour">Behaviour</string>
+    <string name="lblDescr">Descr</string>
+    <string name="lblDie">Die</string>
+    <string name="lblFamily">Family</string>
+    <string name="lblWeapons">Weapons</string>
+    <string name="lblWeight">Weight</string>
+    <string name="lblWounds">Wounds</string>
+    <string name="but_system_viewer">System Viewer</string>
+    <string name="but_encounters">Encounters</string>
+    <string name="but_languages">Languages</string>    
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuGen2D6"
+        android:enabled="true"
+        android:icon="@drawable/dice_2d6"
+        android:title="@string/butGen2D6"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menuGen1D6"
+        android:enabled="true"
+        android:icon="@drawable/dice_1d6"
+        android:title="@string/butGen1D6"
+        android:visible="true"/>
+
+</menu>

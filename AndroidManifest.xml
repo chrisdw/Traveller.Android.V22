@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.org.downesward.traveller"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    <application
+        android:icon="@drawable/imperial_sunburst"
+        android:label="@string/app_name">
+        <activity
+            android:name=".ActionSelectionActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LanguageConfigurationActvity" ></activity>
+        <activity android:name=".LanguageSelectionActivity" ></activity>
+        <activity android:name=".WordDisplayActivity"></activity>
+        <activity android:name=".EncounterConfigurationActivity"></activity>
+        <activity android:name=".EncounterDisplayActivity"></activity>
+        <activity android:name=".SystemDisplayActivity"></activity>
+        <activity android:name="com.lamerman.FileDialog"></activity>
+   </application>
+
+</manifest>
