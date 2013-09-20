@@ -229,8 +229,6 @@ public class EncounterDisplayActivity extends ListActivity implements
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
-		Resources res = getResources();
-
 		if (requestCode == REQUEST_SAVE) {
 			if (resultCode == RESULT_OK) {
 				try
